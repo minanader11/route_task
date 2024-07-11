@@ -59,6 +59,7 @@ class ProductItem extends StatelessWidget {
                             .copyWith(color: MyColors.descriptionColor),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis),
+                    SizedBox(height: 8.h,),
                     Text('EGP ${productEntity.price}',
                         style: Styles.textStyle12
                             .copyWith(color: MyColors.descriptionColor)),
