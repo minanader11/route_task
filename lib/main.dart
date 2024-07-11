@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:route_task/core/service_locator.dart';
 import 'package:route_task/presentation/home/view/home_screen.dart';
 import 'package:route_task/presentation/splash/splash_screen.dart';
 
 void main() {
+  setupServiceLocator();
   runApp(const MyApp());
 }
 

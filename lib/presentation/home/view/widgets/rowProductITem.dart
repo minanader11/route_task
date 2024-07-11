@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -13,16 +12,16 @@ class RowProductItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-    return Container( margin: EdgeInsets.only(right: 8.w, bottom: 8.h),
+    return Container(
+      margin: EdgeInsets.only(right: 8.w, bottom: 8.h),
       child: Row(
         children: [
           Text(
-            'review(${productEntity.rating})',
-            style: Styles.textStyle12.copyWith(color: MyColors.primaryColor),
+            'Review(${productEntity.rating})',
+            style: Styles.textStyle12.copyWith(color: MyColors.descriptionColor),
           ),
           SizedBox(
-            width: 4.w,
+            width: 6.w,
           ),
           Icon(
             Icons.star,
@@ -30,27 +29,22 @@ class RowProductItem extends StatelessWidget {
             size: 16,
           ),
           Spacer(),
-          InkWell(onTap: () {
-
-          },
+          InkWell(
+            onTap: () {},
             child: Container(
-             // margin: EdgeInsets.only(right: 8.w, bottom: 8.h),
-              padding: EdgeInsets.only(right: 2.w, bottom: 2.h,left: 2.w,top: 2.h),
+              // margin: EdgeInsets.only(right: 8.w, bottom: 8.h),
+              padding:
+                  EdgeInsets.only(right: 2.w, bottom: 2.h, left: 2.w, top: 2.h),
               decoration: BoxDecoration(
-                  color: MyColors.primaryColor,
+                  color: MyColors.descriptionColor,
                   borderRadius: BorderRadius.circular(20.r)),
-              // child: BlocBuilder<CategoryViewModel,CategoryStates>(builder:(context, state) {
-              //
-              //     return Icon(
-              //       Icons.add,
-              //       color: MyColors.whiteColor,
-              //       size: 16.w,
-              //     );
-              //   }
-              // ,
-              // ),
+              child: Icon(
+                Icons.add,
+                color: MyColors.whiteColor,
+                size: 16.w,
+              ),
             ),
-          )
+          ),
         ],
       ),
     );

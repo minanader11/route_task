@@ -7,5 +7,4 @@ class MyColors{
   static  Color descriptionColor=Color(0xff06004F);
   static Color redColor= Color(0xffa20d0d);
   static Color blackColor= Color(0xff000000);
-
 }
