@@ -1,16 +1,2 @@
-# route_task
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+design screenshot 
+![Screenshot_20240711_140630](https://github.com/minanader11/route_task/assets/153377391/30368e1d-2fd9-4f3a-9849-33f95ac6782f)
